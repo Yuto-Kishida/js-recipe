@@ -1,6 +1,6 @@
 ```bash
 git add .
-git commit -m "コミット"
+git commit -m "javaScriptの基礎完了"
 git push origin master
 ```
-岸田裕大
+javaScriptの基礎完了
