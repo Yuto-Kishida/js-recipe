@@ -25,19 +25,27 @@ elementClassName.className = "nice-element"
 // 要素を変更する - classList
 const elementClassList = document.getElementById("element-classList")
 elementClassList.classList.add("great-element")
+element.classList.remove("nice-element")
 
 // 要素を追加する - appendChild
-const elementAppendChild = document.getElementById("element-appendChild")
-const div1 = document.createElement("div")
-div1.textContent = "こんばんは"
-elementAppendChild.appendChild(div1)
+const cardsContainer = document.getElementById("element-appendChild")
+const card = document.createElement("div")
+card.textContent = "こんばんは"
+cardsContainer.appendChild(card)
 
 // 要素を追加する - 最新の方法
 const elementPrepend = document.getElementById("element-prepend")
-const div2 = document.createElement("div")
-div2.textContent = "おはよう"
-elementPrepend.prepend(div2)
+const card1 = document.createElement("div")
+card1.textContent = "おはよう"
+elementPrepend.prepend(card1)
 
 // 要素を削除する - remove
 const elementRemove = document.getElementById("element-remove")
 elementRemove.remove()
+
+const elementChildRemove = document.getElementById("element-childremove")
+elementChildRemove.parentNode.removeChild(elementChildRemove)
+
+const cards = document.getElementById("cards-container")
+
+cards.textContent = ""
