@@ -1,5 +1,5 @@
 const genkiFunction = function(number){
-    for(let n = 1; n <= number; n++){
+    for(let n = 0; n <= number; n++){
         if(n % 15 === 0){
             console.log(`FizzBuzz`)
         }
@@ -15,3 +15,4 @@ const genkiFunction = function(number){
     }
 }
 
+genkiFunction(100)
