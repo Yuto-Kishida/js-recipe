@@ -27,6 +27,7 @@ const createCard = function(text) {
   // 削除ボタンを作る
   const deleteButton = document.createElement("div")
   deleteButton.className = "delete"
+  
 
   // 削除ボタンを押したときの処理を登録
   deleteButton.onclick = function() {
