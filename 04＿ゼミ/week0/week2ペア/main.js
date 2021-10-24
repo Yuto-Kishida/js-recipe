@@ -2,7 +2,7 @@ const memoinput = document.getElementById("memo-input");
 const addbutton = document.getElementById("add-button");
 const memocontainer = document.getElementById("memo-container");
 
-//console.dir(memoinput);
+
 
 addbutton.onclick = function () {
   const text = memoinput.value;
