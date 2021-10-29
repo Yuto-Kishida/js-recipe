@@ -26,7 +26,7 @@ new Vue({
     computed:{
         syukkinn:function(){
             if(this.zandaka < Number(this.nyuryokugaku)){
-                this.syukkinn.bind=true;
+                return(this.syukkinn.bind=true);
             }
         }
     }
